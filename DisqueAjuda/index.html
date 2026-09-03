@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidade Pública</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="geral">
+        <header>
+            <h1>Utilidade Pública</h1>
+        </header>
+        <main>
+           <p>Bem-vindo à nossa página de utilidade pública!</p>
+           <label for="telefone">Escolha o serviço desejado:</label>
+            <select id="txtopcao">
+                <option selected disabled>Selecione uma opção</option>
+                <option value="1"> Polícia Militar</option>
+                <option value="2"> Bombeiros</option>
+                <option value="3"> SAMU</option>
+                <option value="4"> Defesa Cívil</option>
+                <option value="5"> Polícia Civíl</option>
+                <option value="6"> Delegacia do Turista (DEAT)</option>
+                <option value="7"> Disque Denúncia</option>
+                <option value="8"> Central de Atendimento à Mulher</option>
+                <option value="9"> Direitos Humanos</option>
+                <option value="10"> Procon</option>
+                <option value="11"> HemoRio</option>
+                <option value="12"> Detran</option>
+                <option value="13"> Disque Ambiente</option>
+            </select>
+              <button onclick="consultar()">Consultar</button>
+            <div id="resultado"></div>
+        </main>
+    <footer>
+        <p>&copy;2026 Utilidade Pública. Todos os direitos reservados.</p>
+    </footer>
+
+    </div>
+</body>
+</html>
